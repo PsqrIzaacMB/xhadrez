@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Xadrez</title>
+  <style>
+    .quadrado {
+      width: 200px;
+      height: 200px;
+      display: inline-block;
+      border: 1px solid black;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      background-color:  
+    }
+    .quadrado img {
+      width: 150px; height: 150px;
+    }
+    .descricao {
+      display: none;
+      position: absolute;
+      background-color: white;
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    .quadrado:hover .descricao {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="quadrado">
+    <img src="Bank-i/cavalo-branco-removebg-preview.png" alt="Cavalo">
+    <div class="descricao">
+      <h3>Cavalo</h3>
+      <p>O cavalo move-se em forma de "L", pulando sobre outras peças.</p>
+      <p>Possíveis movimentos: Em forma de "L", com 2 casas em uma direção e 1 casa em outra.</p>
+    </div>
+  </div>
+
+  <div class="quadrado">
+    <img src="Bank-i/torre-branca-removebg-preview.png" alt="Torre">
+    <div class="descricao">
+      <h3>Torre</h3>
+      <p>A torre move-se em linha reta ao longo das colunas ou linhas.</p>
+      <p>Possíveis movimentos: Horizontalmente ou verticalmente, quantas casas quiser.</p>
+    </div>
+  </div>
+
+  <div class="quadrado">
+    <img src="Bank-i/bispo-branco-removebg-preview.png" alt="Bispo">
+    <div class="descricao">
+      <h3>Bispo</h3>
+      <p>O bispo move-se em linha reta ao longo das diagonais.</p>
+      <p>Possíveis movimentos: Diagonalmente, quantas casas quiser.</p>
+    </div>
+  </div>
+
+  <div class="quadrado">
+    <img src="Bank-i/rei-branco-removebg-preview.png" alt="Rei">
+    <div class="descricao">
+      <h3>Rei</h3>
+      <p>O rei pode mover-se em qualquer direção, mas apenas uma casa por vez.</p>
+      <p>Possíveis movimentos: Horizontalmente, verticalmente ou diagonalmente, uma casa por vez.</p>
+    </div>
+  </div>
+
+  <div class="quadrado">
+    <img src="Bank-i/rainha-branca-removebg-preview.png" alt="Rei">
+    <div class="descricao">
+      <h3>Rainha</h3>
+      <p>A rainha tem o movimento mais poderoso, pois combina os movimentos da torre e do bispo.</p>
+      <p>Ela pode mover-se em linha reta, tanto na vertical quanto na horizontal, por qualquer número de casas, assim como ao longo das diagonais.</p>
+    </div>
+  </div>
+
+  <div class="quadrado">
+    <img src="Bank-i/peao-branco-removebg-preview.png" alt="Rei">
+    <div class="descricao">
+      <h3>Peão</h3>
+      <p>O peão pode avançar uma casa para frente, mas no primeiro movimento pode avançar duas casas.</p>
+      <p>Ele captura as peças inimigas diagonalmente, movendo-se uma casa para frente na diagonal.</p>
+    </div>
+  </div>
+
+  <div class="quadrado">
+    <img src="Bank-i/elefante-branco-removebg-preview.png" alt="Rei">
+    <div class="descricao">
+      <h3>Elefante</h3>
+      <p>O elefante pode mover-se uma casa em qualquer direção: vertical, horizontal ou diagonal.</p>
+      <p>Além disso, o elefante tem a capacidade especial de pular uma casa em qualquer direção: frente, trás, esquerda e direita.</p>
+    </div>
+  </div>
+
+  <div class="quadrado">
+    <img src="Bank-i/conselheiro-branco-removebg-preview.png" alt="Rei">
+    <div class="descricao">
+      <h3>Conselheiro</h3>
+      <p>O conselheiro, também conhecido como arcebispo ou ministro, é uma peça do xadrez que pode mover-se duas casas em qualquer direção diagonal.</p>
+      <p>Ele tem um alcance limitado, podendo mover-se no máximo duas casas ao longo de uma diagonal.</p>
+      <p>Além disso, o conselheiro tem a capacidade especial de pular uma peça que esteja diretamente em sua diagonal, desde que a casa de destino esteja desocupada.</p>
+    </div>
+  </div>
+
+  <!-- Adicione aqui mais divs para as outras peças do xadrez -->
+
+</body>
+</html>
